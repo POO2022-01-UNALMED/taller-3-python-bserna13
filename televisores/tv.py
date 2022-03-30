@@ -40,12 +40,11 @@ class TV():
     def getVolumen(self):
         return self._volumen
     @staticmethod
-    def getNumTV(self):
+    def getNumTV():
         return TV._numTV
     @staticmethod
-    def setNumTV(self,numero):
+    def setNumTV(numero):
         TV._numTV=numero
-    
     
     def turnOn(self):
         self._estado=True
