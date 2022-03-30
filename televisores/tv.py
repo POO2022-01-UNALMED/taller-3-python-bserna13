@@ -1,4 +1,3 @@
-
 class TV():
 
     _numTV=0
@@ -39,9 +38,11 @@ class TV():
                 self._volumen=volumen
     def getVolumen(self):
         return self._volumen
+        
     @staticmethod
     def getNumTV():
         return TV._numTV
+
     @staticmethod
     def setNumTV(numero):
         TV._numTV=numero
